@@ -28,18 +28,11 @@
 
 / {
     macros {
-        flash_macro: flash_macro {
+        new_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kt LEFT_CONTROL>,
-                <&macro_tap>,
-                <&kp LEFT_ARROW>,
-                <&macro_release>;
-
-            tap-ms = <10>;
-            wait-ms = <30>;
+            bindings = <&kp LA(LEFT_ARROW)>;
+            label = "NEW_MACRO";
         };
     };
 
