@@ -31,7 +31,7 @@
         new_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LA(LEFT_ARROW)>;
+            bindings = <&macro_press>, <&kp LA(LEFT_ARROW)>, <&macro_release>;
 
             label = "NEW_MACRO";
         };
