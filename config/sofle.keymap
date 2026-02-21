@@ -31,7 +31,7 @@
         flash_macro: flash_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LEFT_ARROW>;
+            bindings = <&kt LEFT_CONTROL &kt LEFT_ARROW &kt LEFT_CONTROL &kt LEFT_ARROW>;
         };
     };
 
