@@ -32,6 +32,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kt LEFT_CONTROL &kt LEFT_ARROW &kt LEFT_CONTROL &kt LEFT_ARROW>;
+            tap-ms = <10>;
+            wait-ms = <30>;
         };
     };
 
